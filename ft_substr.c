@@ -6,14 +6,11 @@
 /*   By: mafzal < mafzal@student.42warsaw.pl>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/23 14:58:30 by mafzal            #+#    #+#             */
-/*   Updated: 2024/12/28 19:31:06 by mafzal           ###   ########.fr       */
+/*   Updated: 2024/12/31 17:58:25 by mafzal           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 size_t	ft_substrlen(char const *str, unsigned int start, size_t len)
 {
