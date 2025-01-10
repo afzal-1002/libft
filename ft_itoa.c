@@ -6,13 +6,13 @@
 /*   By: mafzal < mafzal@student.42warsaw.pl>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 14:33:24 by mafzal            #+#    #+#             */
-/*   Updated: 2024/12/30 17:55:52 by mafzal           ###   ########.fr       */
+/*   Updated: 2025/01/05 18:53:27 by mafzal           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_count_nums(int num)
+static int	ft_count_nums(int num)
 {
 	int	length;
 
@@ -27,7 +27,7 @@ int	ft_count_nums(int num)
 	return (length);
 }
 
-int	ft_isnegative(int num)
+static int	ft_isnegative(int num)
 {
 	int	neg;
 

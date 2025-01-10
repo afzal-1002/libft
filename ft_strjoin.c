@@ -6,13 +6,13 @@
 /*   By: mafzal < mafzal@student.42warsaw.pl>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/23 17:00:28 by mafzal            #+#    #+#             */
-/*   Updated: 2024/12/24 13:36:10 by mafzal           ###   ########.fr       */
+/*   Updated: 2025/01/05 18:53:33 by mafzal           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	append_to_ptr(char *dest, const char *src, size_t i)
+static size_t	ft_append_to_ptr(char *dest, const char *src, size_t i)
 {
 	while (src && *src)
 	{
@@ -39,9 +39,9 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		return (NULL);
 	i = 0;
 	if (s1)
-		i = append_to_ptr(ptr, s1, i);
+		i = ft_append_to_ptr(ptr, s1, i);
 	if (s2)
-		i = append_to_ptr(ptr, s2, i);
+		i = ft_append_to_ptr(ptr, s2, i);
 	ptr[i] = '\0';
 	return (ptr);
 }

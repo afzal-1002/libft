@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h> // For size_t
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {

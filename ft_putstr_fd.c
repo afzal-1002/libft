@@ -6,14 +6,11 @@
 /*   By: mafzal < mafzal@student.42warsaw.pl>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/24 18:21:14 by mafzal            #+#    #+#             */
-/*   Updated: 2024/12/24 19:12:10 by mafzal           ###   ########.fr       */
+/*   Updated: 2025/01/05 18:53:29 by mafzal           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <fcntl.h>
-#include <stdio.h>
-#include <unistd.h>
 
 void	ft_putstr_fd(char *s, int fd)
 {
